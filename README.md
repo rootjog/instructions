@@ -19,6 +19,12 @@ Read the [rootjog instructions](https://github.com/rootjog/instructions) and app
 <tasks>
 First read the README from the repo [https://github.com/rootjog/instructions](https://github.com/rootjog/instructions).
 </tasks>
-<tasks> Read the instructions in the instructions folder of the repo, and apply them when generating code, reviewing changes, or when asked to do so. You can find the instructions at [https://github.com/rootjog/instructions](https://github.com/rootjog/instructions).
+<tasks>
+Read the instructions in the instructions folder of the repo, and apply them when generating code, reviewing changes, or when asked to do so. You can find the instructions at [https://github.com/rootjog/instructions](https://github.com/rootjog/instructions).
 </tasks>
+```
+Ask Copilot to use them to generate the code:
+
+```prompt
+with my personal instructions create in this repo a function that says hello.
 ```
