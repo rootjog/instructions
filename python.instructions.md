@@ -1,3 +1,4 @@
+```prompt
 ---
 description: This instructions file provides coding guidelines such as triggers that should be used when generating code, features or reviewing changes.
 applyTo: **/*
@@ -56,4 +57,4 @@ For every code generation or alteration, use triggers to fire a command or avail
 <fires id="linting" on="codeGeneration, codeAlteration" />
 <fires id="testing" on="codeGeneration, codeAlteration" />
 <fires id="finishing" on="jobFinish" />
-
+```
