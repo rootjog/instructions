@@ -3,6 +3,7 @@ Instructions for agents
 
 
 ## Tree
+- `global.instructions.md`: Global guidelines.
 - `python.instructions.md`: Python guidelines.
 
 ## Usage
