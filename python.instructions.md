@@ -32,6 +32,7 @@ For every code generation or alteration, use triggers to fire a command or avail
 </triggers>
 
 <triggers id="linting">
+- You must validate that env enviroment is activated and in the last version by running `install script`.
 - Use `./scripts/lint` to run the linter and fix any issues before committing code if is available.
 - If `./scripts/lint` fails, **run again the command** that failed and then continue with the next steps of the script, read the script if needed.
 - Use `ruff` or `flake8` to check for linting issues in Python code.
@@ -40,6 +41,7 @@ For every code generation or alteration, use triggers to fire a command or avail
 </triggers>
 
 <triggers id="testing">
+- You must validate that env enviroment is activated and in the last version by running `install script`.
 - You should only run modified tests and all if asked.
 - Use `pytest` to run tests and ensure that all tests pass before committing code.
 - Use coverage to check test coverage and ensure that new code is adequately tested.
