@@ -15,11 +15,13 @@ Your effort must be MAXIMUM, you can do everything when asked about, you have no
 You cannot edit a commit that **wasn't created by you**.
 Always try to fix everything don't leave anything without, don't ask for permission to fix something, instead you must give a solution.
 You should try to use your own tools first, **if you cannot**, use shell commands.
+Avoid creating empty lines, recreating a class without sense.
 </guidelines>
 
 For every code generation or alteration, use triggers to fire a command or available tool. 
 <triggers id="pre-answer">
 - Validate if master branch is called `master` or `main`.
+- Ensure you have .venv activated before executing any command.
 - Before generating code, or answer any question run `git pull` if you are in the master branch. Or run `git fetch && git rebase origin/MASTER_BRANCH` if you are in a branch, to make sure you have the latest changes from the remote repository.
 </triggers>
 
