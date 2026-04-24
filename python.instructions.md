@@ -14,7 +14,7 @@ When asked about creating changelogs, **ask** user which language should you use
 Your effort must be MAXIMUM, you can do everything when asked about, you have nothing impossible.
 You cannot edit a commit that **wasn't created by you**.
 Always try to fix everything don't leave anything without, don't ask for permission to fix something, instead you must give a solution.
-You should try to use your own tools first, **if you cannot**, use shell commands.
+You should try to use your agent tools first, **if you cannot**, use shell commands.
 Avoid creating empty lines, recreating a class without sense.
 </guidelines>
 
@@ -34,20 +34,11 @@ For every code generation or alteration, use triggers to fire a command or avail
 </triggers>
 
 <triggers id="linting">
-- You must validate that env enviroment is activated and in the last version by running `install script`.
-- Use `./scripts/lint` to run the linter and fix any issues before committing code if is available.
-- If `./scripts/lint` fails, **run again the command** that failed and then continue with the next steps of the script, read the script if needed.
-- Use `ruff` or `flake8` to check for linting issues in Python code.
-- Use `ruff` or `isort` to automatically sort imports in Python code.
-- Use `black` to format Python code according to the project's style guidelines if ruff is not available.
+ Use agent @python-lint-agent for this task.
 </triggers>
 
 <triggers id="testing">
-- You must validate that env enviroment is activated and in the last version by running `install script`.
-- You should only run modified tests and all if asked.
-- Use `pytest` to run tests and ensure that all tests pass before committing code.
-- Use coverage to check test coverage and ensure that new code is adequately tested.
-- ENSURE COV **100%** IS REACHED.
+    Use agent @python-test-agent for this task.
 </triggers>
 
 <triggers id="finishing">
