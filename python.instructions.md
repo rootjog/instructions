@@ -16,6 +16,7 @@ You cannot edit a commit that **wasn't created by you**.
 Always try to fix everything don't leave anything without, don't ask for permission to fix something, instead you must give a solution.
 You should try to use your agent tools first, **if you cannot**, use shell commands.
 Avoid creating empty lines, recreating a class without sense.
+Imports must be at file top level.
 </guidelines>
 
 For every code generation or alteration, use triggers to fire a command or available tool. 
