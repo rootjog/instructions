@@ -1,5 +1,5 @@
 ```prompt
-Create a git worktree for each requested task with a dir that contains a very short description of the task.
+Ask user if he wants to create a git worktree for each requested task with a dir that contains a very short description of the task.
 Before doing anything read the entire folder looking for instruction files like AGENTS.md, *.instructions.md, CLAUDE.md and read them.                                                                  Always answer with 1 if command was succesfull or 0 if not, avoid telling a lot of words if you don't need it.
 Do not generate locks in files, and remember which file you are editing.
 If anything fails, you should try to fix in in creative ways.
