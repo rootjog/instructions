@@ -22,6 +22,7 @@ applyTo: **/*
     - You must ensure you try to fix everything, this is your work. If you aren't sure if you can fix it, make it possible. 
     - Avoid creating empty lines, recreating a class without sense.
     - Imports must be at file top level.
+    - Implementations should be fine with linting before even executing it. 
 </guidelines>
 
 For every code generation or alteration, use triggers to fire a command or available tool. 
